@@ -12,7 +12,7 @@ title: Metrolab News
 	  		<a href="{{ post.url }}" title="{{ post.title }}" class="firstPostEntry"> 
 		  		<li> 
 		  			<h1> {{ post.title }} </h1>
-		  			<p> {{ post.excerpt }} </p>
+		  			<p> {{ post.excerpt | remove: '<p>' | remove: '</p>'}} </p>
 		  		</li>
 	  		</a>
 		  {% endfor %}
@@ -20,7 +20,7 @@ title: Metrolab News
 		  	<a href="{{ post.url }}" title="{{ post.title }}" class="postEntry"> 
 			  	<li> 
 			  		<h1> {{ post.title }} </h1>
-			  		<p> {{ post.excerpt }} </p>
+			  		<p> {{ post.excerpt | remove: '<p>' | remove: '</p>'}} </p>
 			  	</li>
 			  </a>
 		  {% endfor %}
