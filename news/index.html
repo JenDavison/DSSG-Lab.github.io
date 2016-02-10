@@ -8,10 +8,10 @@ title: Metrolab News
 	</div>
 	<div class="posts"> 
 		<ul>
-		  {% for post in site.posts limit 1 %}
+		  {% for post in site.posts limit:1 %}
 	  		<a href="{{ post.url }}" title="{{ post.title }}" class="firstPostEntry"> <li> {{ post.title }}</li></a>
 		  {% endfor %}
-		  {% for post in site.posts offset 1 %}	
+		  {% for post in site.posts offset:1 %}	
 		  	<a href="{{ post.url }}" title="{{ post.title }}" class="postEntry"> <li> {{ post.title }}</li></a>
 		  {% endfor %}
 		</ul>
