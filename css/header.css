@@ -1,6 +1,6 @@
 header {
   float: left;
-  width: 20%;
+  width: 220px;
   background: #525f81;
   padding: 15px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -13,6 +13,7 @@ a {
 }
   
 .logo-text {
+  margin-bottom: 15px;
   font-size: 20px;
 }
 
