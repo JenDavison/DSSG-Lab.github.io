@@ -10,11 +10,11 @@ title: Metrolab News
 		<ul>
 		  {% for post in site.posts limit:1 %}
 	  		<a href="{{ post.url }}" title="{{ post.title }}" class="firstPostEntry"> <li> {{ post.title }}</li></a>
-	  		<p> {{ post.except }} </p>
+	  		<p> {{ post.excerpt }} </p>
 		  {% endfor %}
 		  {% for post in site.posts offset:1 %}	
 		  	<a href="{{ post.url }}" title="{{ post.title }}" class="postEntry"> <li> {{ post.title }}</li></a>
-		  	<p> {{ post.except }} </p>
+		  	<p> {{ post.excerpt }} </p>
 		  {% endfor %}
 		</ul>
 	</div>
