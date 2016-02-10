@@ -18,7 +18,8 @@ a {
 
 .logo-text {
   margin-bottom: 0;
-  font-size: 19px;
+  font-size: 20px;
+  white-space: nowrap;
 }
 
 .logo-text a {
