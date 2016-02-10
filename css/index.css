@@ -2,3 +2,13 @@ homepage {
   margin-left: 3%;
 }
 
+homepage .title {
+  font-size: 32pt;
+  font-weight: 500;
+}
+
+homepage .tagline {
+  font-size: 24pt;
+  font-weight: normal;
+  padding-left: 15px;
+}
