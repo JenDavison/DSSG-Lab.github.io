@@ -17,8 +17,13 @@ a {
   font-size: 19px;
 }
 
+.logo {
+  margin-bottom: 35px;
+}
+
 .logo-text a {
   color: #FFFFFF;
+  margin: 0;
 }
 
 .tagline {
