@@ -30,5 +30,6 @@ a {
 
 .logo-image {
   position: absolute;
+  margin: 0;
   opacity: .4;
 }
