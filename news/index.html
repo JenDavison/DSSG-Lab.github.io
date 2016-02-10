@@ -11,8 +11,9 @@ title: Metrolab News
 		  {% for post in site.posts %}
 		  	{% if post = site.posts.first %}
 		  		<a href="{{ post.url }}" title="{{ post.title }}" class="firstPostEntry"> <li> {{ post.title }}</li></a>
-		  	{% endif %}
-		    <a href="{{ post.url }}" title="{{ post.title }}" class="postEntry"> <li> {{ post.title }}</li></a>
+		  	{% else %}
+		    		<a href="{{ post.url }}" title="{{ post.title }}" class="postEntry"> <li> {{ post.title }}</li></a>
+		    	{% endif %}
 		  {% endfor %}
 		</ul>
 	</div>
