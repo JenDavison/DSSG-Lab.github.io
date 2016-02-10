@@ -38,5 +38,6 @@ a {
 .logo-image {
   position: absolute;
   margin: 0;
+  z-index: -1;
   opacity: .4;
 }
