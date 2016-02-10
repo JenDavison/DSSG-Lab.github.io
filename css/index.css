@@ -1,15 +1,15 @@
-.homepage {
+.container {
   margin-left: 3%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.homepage .title {
+.container .title {
   font-size: 32pt;
   margin-bottom: 30px;
   font-weight: 500;
 }
 
-.homepage .tagline {
+.container .tagline {
   font-size: 14pt;
   font-weight: normal;
   padding-left: 15px;
