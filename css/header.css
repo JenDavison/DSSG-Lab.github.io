@@ -8,34 +8,34 @@ header {
   height: 100%;
 }
 
-a {
+header a {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-ul {
+header ul {
   list-style-type: none;
 }
 
-li {
+header li {
   display: inline;
 }
 
-.logo {
+header .logo {
   margin-bottom: 15px;
 }
 
-.logo-text {
+header .logo-text {
   margin-bottom: 0;
   font-size: 20px;
   white-space: nowrap;
 }
 
-.logo-text a {
+header .logo-text a {
   margin: 0;
 }
 
-.tagline {
+header .tagline {
   text-align: center;
   font-size: 11pt;
   font-weight: normal;
@@ -44,11 +44,11 @@ li {
   padding-right: 3.5%;
 }
 
-.tagline-banner {
-  margin-bottom: 35px;
+header .tagline-banner {
+  margin-bottom: 25px;
 }
 
-.logo-image {
+header .logo-image {
   position: absolute;
   margin: 0;
   z-index: -1;
