@@ -1,5 +1,5 @@
 header {
-  float: left;
+  position: fixed;
   width: 220px;
   background: #525f81;
   padding: 15px;
