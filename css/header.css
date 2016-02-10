@@ -11,14 +11,14 @@ header {
 a {
   text-decoration: none;
 }
-  
-.logo-text {
-  margin-bottom: 15px;
-  font-size: 19px;
-}
 
 .logo {
   margin-bottom: 15px;
+}
+
+.logo-text {
+  margin-bottom: 0;
+  font-size: 19px;
 }
 
 .logo-text a {
