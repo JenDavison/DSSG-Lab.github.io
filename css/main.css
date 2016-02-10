@@ -8,5 +8,6 @@ body {
 }
 
 main {
-  float: right;
+  margin-left: 250px;
+  width: 100%;
 }
