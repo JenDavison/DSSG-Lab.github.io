@@ -10,6 +10,11 @@ header {
 
 a {
   text-decoration: none;
+  color: #FFFFFF;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .logo {
@@ -23,7 +28,6 @@ a {
 }
 
 .logo-text a {
-  color: #FFFFFF;
   margin: 0;
 }
 
