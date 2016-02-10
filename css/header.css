@@ -26,7 +26,8 @@ a {
   font-size: 11pt;
   font-weight: normal;
   line-height: 1.5;
-  padding: 0, 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .logo-image {
