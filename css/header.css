@@ -9,7 +9,11 @@ header {
 }
 
 header a {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: #FFFFFF;
+}
+
+header a:hover {
   color: #FFFFFF;
 }
 

@@ -18,6 +18,10 @@ body {
   background: #F4F4F4;
 }
 
-main {
-  margin-left: 250px;
+.mainContainer {
+  margin-left: 250px !important;
+}
+
+.content {
+    margin-left: 3%;
 }
