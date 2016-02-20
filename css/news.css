@@ -2,25 +2,15 @@
   list-style-type: none;
 }
 
-.container li {
-  color: #000000;
-  background-color: #FBFBFB;
-  padding: 10px;
-  border: 1px solid #C5C8CF;
-  margin-bottom: 2%;
-  width: 90%;
-  text-align: center;
-}
-
 .container li h1 {
   margin-bottom: 10px;
-}
-
-.container .firstPostEntry li {
-  height: 200px;
 }
 
 .container a {
   text-decoration: none;
   color: #000000;
+}
+
+.postContent {
+  padding-left: 5%;
 }
